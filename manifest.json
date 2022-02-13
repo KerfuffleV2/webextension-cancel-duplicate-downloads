@@ -1,0 +1,18 @@
+{
+  "description": "Cancels duplicate downloads",
+  "manifest_version": 2,
+  "name": "cancel-duplicate-downloads",
+  "version": "0.0.1",
+  "permissions": [
+    "downloads"
+  ],
+  "browser_action": {
+    "default_title": "canceldup",
+    "default_icon": "icons/cancel-duplicate-downloads.svg"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}

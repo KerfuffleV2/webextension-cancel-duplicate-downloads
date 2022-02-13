@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="cancel-duplicate-downloads.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#0a0f1f"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     width="1024px"
+     inkscape:zoom="0.81344901"
+     inkscape:cx="491.73334"
+     inkscape:cy="511.40267"
+     inkscape:window-width="2560"
+     inkscape:window-height="1413"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2">
+    <rect
+       x="26.811776"
+       y="23.236872"
+       width="970.58629"
+       height="977.7361"
+       id="rect61516" />
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter6949"
+       x="-0.044347108"
+       y="-0.044248192"
+       width="1.0886942"
+       height="1.0884964">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur6941" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur6943" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite6945" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend6947" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Diffuse Light"
+       id="filter15197"
+       x="-0.051283674"
+       y="-0.054419886"
+       width="1.1025673"
+       height="1.1088398">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="6.58147"
+         result="blur"
+         id="feGaussianBlur15187" />
+      <feDiffuseLighting
+         diffuseConstant="1"
+         surfaceScale="10"
+         lighting-color="rgb(255,255,255)"
+         result="diffuse"
+         id="feDiffuseLighting15191">
+        <feDistantLight
+           elevation="28"
+           azimuth="235"
+           id="feDistantLight15189" />
+      </feDiffuseLighting>
+      <feComposite
+         in="diffuse"
+         in2="diffuse"
+         operator="arithmetic"
+         k1="1"
+         result="composite1"
+         id="feComposite15193" />
+      <feComposite
+         in="composite1"
+         in2="SourceGraphic"
+         k1="1"
+         operator="arithmetic"
+         k3="1"
+         result="composite2"
+         id="feComposite15195" />
+    </filter>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="BG">
+    <ellipse
+       style="fill:#0b0b28;stroke-width:0.252879;filter:url(#filter15197)"
+       id="path14861"
+       ry="145.12643"
+       rx="154.00153"
+       cy="145.58641"
+       cx="133.53203"
+       transform="matrix(0.99048734,0,0,0.96861396,3.9200484,-5.5503598)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Text">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.133758"
+       y="12.769108"
+       id="text30598"><tspan
+         sodipodi:role="line"
+         id="tspan30596"
+         style="stroke-width:0.264583"
+         x="15.133758"
+         y="12.769108" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="7.5668788"
+       y="10.877388"
+       id="text37092"><tspan
+         sodipodi:role="line"
+         id="tspan37090"
+         style="stroke-width:0.264583"
+         x="7.5668788"
+         y="10.877388" /></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1.1466507,0,0,0.29636651,28.37814,-13.472133)"
+       id="text61514"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:253.136px;line-height:1.25;font-family:FreeMono;-inkscape-font-specification:'FreeMono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect61516);fill:#3771c8"><tspan
+         x="26.8125"
+         y="257.38713"
+         id="tspan15384">D
+</tspan><tspan
+         x="26.8125"
+         y="573.80714"
+         id="tspan15386">U
+</tspan><tspan
+         x="26.8125"
+         y="890.22716"
+         id="tspan15388">P</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Anti"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:413.772px;line-height:1.25;font-family:sans-serif;fill:#50162d;fill-opacity:1;stroke:none;stroke-width:10.3443;filter:url(#filter6949)"
+       x="-38.194042"
+       y="265.74945"
+       id="text4324"
+       transform="matrix(1.0010885,0,0,0.99891269,0.16575279,-0.12432132)"><tspan
+         sodipodi:role="line"
+         style="fill:#50162d;stroke-width:10.3443"
+         x="-38.194042"
+         y="265.74945"
+         id="tspan4326">⊘</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+     x="12.296178"
+     y="15.606688"
+     id="text14217"><tspan
+       sodipodi:role="line"
+       id="tspan14215"
+       style="stroke-width:0.264583" /></text>
+</svg>
