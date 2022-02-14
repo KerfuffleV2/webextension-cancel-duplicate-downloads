@@ -15,6 +15,10 @@ The extension icon will show a badge with the number of cancelled downloads. You
 
 The badge will be red if the last download was cancelled, otherwise green. You can also hover the extension icon for some stats.
 
+## Installation
+
+The extension is listed on the Firefox addon store: https://addons.mozilla.org/en-US/firefox/addon/cancel-duplicate-downloads/
+
 ## Notes
 
 1. The addon cannot actually check if the file exists, so duplicate "detection" is based solely on the filename.
