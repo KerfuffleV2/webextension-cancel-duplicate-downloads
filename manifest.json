@@ -3,6 +3,16 @@
   "manifest_version": 2,
   "name": "cancel-duplicate-downloads",
   "version": "0.0.1",
+  "developer": {
+    "name": "KerfuffleV2",
+    "url": "https://github.com/KerfuffleV2/webextension-cancel-duplicate-downloads"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{a762ee65-eb4f-4ead-aa9b-bc91baf422fe}",
+      "strict_min_version": "63.0"
+    }
+  },
   "permissions": [
     "downloads"
   ],
