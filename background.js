@@ -1,7 +1,7 @@
 const iconEnabled = 'icons/cancel-duplicate-downloads.svg';
 const iconDisabled = 'icons/cancel-duplicate-downloads-disabled.svg';
 
-const duplicateDownloadRegex = /\(\d+\)\.[^.]+$/;
+const duplicateDownloadRegex = /\(\d\d?\)\.[^.]+$/;
 
 var extensionEnabled = true;
 var lastCancelled = false;

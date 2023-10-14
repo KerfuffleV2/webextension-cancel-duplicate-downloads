@@ -1,28 +1,28 @@
 {
-  "description": "Cancels duplicate downloads",
-  "manifest_version": 2,
-  "name": "cancel-duplicate-downloads",
-  "version": "0.0.1",
-  "developer": {
-    "name": "KerfuffleV2",
-    "url": "https://github.com/KerfuffleV2/webextension-cancel-duplicate-downloads"
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "{a762ee65-eb4f-4ead-aa9b-bc91baf422fe}",
-      "strict_min_version": "63.0"
+    "description": "Cancels duplicate downloads",
+    "manifest_version": 2,
+    "name": "cancel-duplicate-downloads",
+    "version": "0.0.2",
+    "developer": {
+        "name": "KerfuffleV2",
+        "url": "https://github.com/KerfuffleV2/webextension-cancel-duplicate-downloads"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{a762ee65-eb4f-4ead-aa9b-bc91baf422fe}",
+            "strict_min_version": "79.0"
+        }
+    },
+    "permissions": [
+        "downloads"
+    ],
+    "browser_action": {
+        "default_title": "canceldup",
+        "default_icon": "icons/cancel-duplicate-downloads.svg"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
     }
-  },
-  "permissions": [
-    "downloads"
-  ],
-  "browser_action": {
-    "default_title": "canceldup",
-    "default_icon": "icons/cancel-duplicate-downloads.svg"
-  },
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
-  }
 }
